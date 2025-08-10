@@ -1,0 +1,57 @@
+<?php
+// Basic PHP mockup for Partner With Us page
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner With Us - DrGalen</title>
+    <meta name="description" content="Partner with DrGalen to offer your clients 24/7 medical assistance. Ideal for Airbnb hosts, hotels, travel agents, and more. Earn commission while helping your guests.">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
+        header { background: #0a5c83; color: white; padding: 20px; text-align: center; }
+        section { max-width: 1000px; margin: auto; padding: 20px; }
+        h1, h2 { color: #0a5c83; }
+        .cta { background: #ff6600; color: white; padding: 15px; text-align: center; display: block; margin: 20px 0; text-decoration: none; font-weight: bold; }
+        footer { background: #0a5c83; color: white; text-align: center; padding: 10px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Partner With DrGalen</h1>
+        <p>Offer 24/7 medical assistance to your clients, guests, or members — and earn revenue while doing it.</p>
+    </header>
+    <section>
+        <h2>Who Can Partner With Us?</h2>
+        <ul>
+            <li>Airbnb Hosts</li>
+            <li>Hotels & Resorts</li>
+            <li>Travel Agents & Tour Operators</li>
+            <li>Corporate Offices & Co-working Spaces</li>
+            <li>Event Organisers</li>
+            <li>Any business serving travelers or guests</li>
+        </ul>
+        
+        <h2>Why Partner With DrGalen?</h2>
+        <p>We provide instant, multilingual medical assistance within 30 seconds of request. Our network covers general practitioners, specialists, and emergency services. Your clients are in safe hands, and you earn every time they use our service.</p>
+        
+        <h2>How It Works</h2>
+        <ol>
+            <li>Sign up using our partner form.</li>
+            <li>Receive your digital flyer with QR code & referral link.</li>
+            <li>Share with your clients or guests.</li>
+            <li>Earn commission from every booking.</li>
+        </ol>
+        
+        <h2>Revenue Sharing</h2>
+        <p>Earn 10% commission on every booking made via your referral link or QR code. Payments are made monthly via bank or PayPal.</p>
+        <p><strong>Example:</strong> If your guest spends $100, you earn $10. With 20 guest bookings a month, you earn $200 — effortlessly.</p>
+        
+        <a class="cta" href="#">Apply to Become a Partner</a>
+    </section>
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> DrGalen. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
