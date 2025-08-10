@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Galen — Partner With Us</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#0066cc;--muted:#6b7280;--bg:#f7f9fb;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;background:var(--bg);color:#0f172a}
+    .container{max-width:1100px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
+    .logo img{width:48px;height:48px;border-radius:8px;object-fit:cover}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .hero{background:linear-gradient(90deg,rgba(0,102,204,0.06),rgba(0,102,204,0.02));padding:28px;border-radius:12px;display:flex;gap:24px;align-items:center}
+    .hero-left{flex:1}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    .btn-outline{border:2px solid var(--accent);background:transparent;color:var(--accent)}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:24px}
+    .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(13,27,47,0.06)}
+    .col-8{grid-column:span 8}
+    .col-4{grid-column:span 4}
+    .steps{display:flex;flex-direction:column;gap:12px}
+    .step{display:flex;gap:12px;align-items:flex-start}
+    .step .badge{min-width:36px;height:36px;border-radius:10px;background:var(--accent);color:white;display:flex;align-items:center;justify-content:center;font-weight:700}
+    .benefits{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+    .benefit{display:flex;gap:10px;align-items:center}
+    .benefit .dot{width:10px;height:10px;background:var(--accent);border-radius:50%}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.col-8,.col-4{grid-column:unset}.hero{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="https://via.placeholder.com/80x80.png?text=DG" alt="Dr. Galen Logo">
+      </div>
+      <nav>
+        <a href="#how" style="margin-right:12px;color:var(--muted);text-decoration:none">How it works</a>
+        <a href="#faq" style="margin-right:12px;color:var(--muted);text-decoration:none">FAQ</a>
+        <a href="#join" class="btn">Partner With Us</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Partner With Dr. Galen — Help Your Clients, Earn Revenue</h1>
+        <p class="lead">Offer trusted 24/7 telehealth services to your clients worldwide. Easy to share, simple to track, and profitable for you.</p>
+        <div style="margin-top:14px">
+          <a class="btn" href="#join">Get Started — It’s Free</a>
+          <a class="btn btn-outline" href="#how" style="margin-left:12px">See how it works</a>
+        </div>
+      </div>
+      <div style="width:320px">
+        <img src="https://via.placeholder.com/520x320.png?text=Mockup+Preview" alt="preview" style="width:100%;border-radius:10px;object-fit:cover">
+      </div>
+    </section>
+    <div class="grid" style="margin-top:28px">
+      <div class="card col-8">
+        <h2 id="how">How It Works</h2>
+        <div class="steps" style="margin-top:12px">
+          <div class="step">
+            <div class="badge">1</div>
+            <div>
+              <div style="font-weight:700">Sign Up as a Partner</div>
+              <div style="color:var(--muted)">Fill a short form — no fees, no commitment.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="badge">2</div>
+            <div>
+              <div style="font-weight:700">Share Your Unique Link & QR</div>
+              <div style="color:var(--muted)">We provide print-ready standees, digital assets, and a personal referral link or QR code.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="badge">3</div>
+            <div>
+              <div style="font-weight:700">Clients Book — You Earn</div>
+              <div style="color:var(--muted)">Whenever a client books using your link/QR, you earn a commission. Payouts monthly.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card col-4">
+        <h3 id="faq">Quick FAQ</h3>
+        <p><strong>How will I get my referral tools?</strong><br>Unique QR code, printable standee design, and your referral link will be emailed to you.</p>
+        <p><strong>How are referrals tracked?</strong><br>Each QR and link is unique to you so we can track bookings accurately.</p>
+        <p><strong>When will I get paid?</strong><br>Monthly payouts with a minimum payout threshold.</p>
+        <p><strong>Any limit on earnings?</strong><br>No — the more you refer, the more you earn.</p>
+      </div>
+    </div>
+    <section id="join" style="margin-top:28px">
+      <div class="card">
+        <h2>Become a Partner</h2>
+        <p style="color:var(--muted)">Sign up now to receive your assets and start earning.</p>
+        <form method="post" action="#" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
+          <input name="name" placeholder="Your name or company" style="flex:1;padding:10px;border-radius:8px;border:1px solid #e6eef7">
+          <input name="email" placeholder="Email address" style="flex:1;padding:10px;border-radius:8px;border:1px solid #e6eef7">
+          <button class="btn" style="padding:10px 18px;border-radius:8px;border:none">Request Access</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      © 2025 Dr. Galen. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
